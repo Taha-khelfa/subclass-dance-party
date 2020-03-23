@@ -1,27 +1,48 @@
 body, html{
   height:100%;
+  overflow: hidden;
 }
 body{
   margin: 0px;
   background-color:#444;
   font-size: 18px;
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/014/827/433/large/alex-accorsi-romantic-installation.jpg?1545754149);
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 body, a:link, a:visited, a:active{
-  color: lightblue;
+  color: red;
 }
-.title, .addDancerButton{
+.title, .addDancerButton {
   padding:5px 12px;
   float:right;
 }
 .topbar{
   height:32px;
-  background-color: #555;
+  background-color:transparent;
+  border-color: transparent;
 }
 .title{
-  background-color: #777;
+  background-color:transparent;
 }
 .dancer{
-  border:10px solid red;
+  width: 163px;
+  height: 146px;
   border-radius:10px;
   position:absolute;
 }
+.superDancer{
+  width: 300px;
+  height: 350px;
+  border-radius:10px;
+  position:absolute;
+}
+
+.RobocopDancer{
+  width: 250px;
+  height: 350px;
+  border-radius:10px;
+  position:absolute;
+}
+
